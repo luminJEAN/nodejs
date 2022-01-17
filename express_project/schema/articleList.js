@@ -32,3 +32,20 @@ exports.addArticleSchema = {
 
 
 
+exports.updateArticleSchema = {
+    body: {
+        title,
+        content,
+        state,
+        time: pub_data,
+        img: cover_img,
+        cateId: cate_id,
+        authorId: author_id
+    },
+    params: {
+        id
+    }
+}
+
+
+
